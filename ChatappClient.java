@@ -45,7 +45,7 @@ public class ChatappClient implements Runnable {
 
             in.close();
         } catch (Exception e) {
-            System.out.print("Whoops! It didn't work!\n");
+            System.err.print(getClass().getSimpleName()+"Whoops! It didn't work!\n");
         }
     }
 
